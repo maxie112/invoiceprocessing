@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+	
+
+<html>
+
+<!-- Mirrored from secure.go2ubl.com/converter by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 09:54:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn gegevens</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <link href="Content/go2ubl-v2-cssee04.css?v=20200805" rel="stylesheet"/>
+
+
+  <!-- HTML5 Support for IE -->
+    <!--[if lt IE 9]>
+  <script src="~/Scripts/Common/html5shim.js"></script>
+  <![endif]-->
+    <!--[if IE 7]>
+  <link rel="stylesheet" href="~/Content/outlook/font-awesome-ie7.css">
+  <![endif]-->
+
+	<script src="../ajax.aspnetcdn.com/ajax/jquery/jquery-2.0.0.min.js"></script>
+<script>(window.jQuery)||document.write('<script src="/bundles/jquery"><\/script>');</script>
+    
+	<script src="bundles/jqueryui8eb9?v=oBdZ-ax5j2eUkCs9QYzQku9xTba7BgjIymAiZMTZvlA1"></script>
+    
+	<script src="bundles/modernizr8fce?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1"></script>
+
+    <script src="bundles/applicationf20c?v=20201216"></script>
+
+
+    
+</head>
+<body>
+
+    <div class="logo"><img src="Content/images/go2ubl-logo.png" /></div>
+
+<div class="container">
+    
+
+
+<style>
+    .converterContent {
+        padding: 0;
+        vertical-align: text-bottom;
+    }
+
+        .converterContent table {
+            margin: 0;
+        }
+
+            .converterContent table td {
+            }
+
+                .converterContent table td label {
+                    width: 110px;
+                }
+
+        .converterContent td input[type="text"] {
+            width: 200px;
+        }
+
+        .converterContent td input[type='file'] {
+            width: 200px;
+        }
+
+
+    .converterSeperator {
+        width: 30px;
+    }
+
+    .labelInputSeperator {
+        width: 10px;
+    }
+
+    .circle {
+        background: #c5005e;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.inputfile').each(function () {
+            var $input = $(this),
+                $label = $input.next('label'),
+                labelVal = $label.html();
+
+            $input.on('change', function (e) {
+                var fileName = '';
+
+                if (this.files && this.files.length > 1)
+                    fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
+                else if (e.target.value)
+                    fileName = e.target.value.split('\\').pop();
+
+                if (fileName)
+                    $label.find('span').html(fileName);
+                else
+                    $label.html(labelVal);
+            });
+
+            // Firefox bug fix
+            $input
+            .on('focus', function () { $input.addClass('has-focus'); })
+            .on('blur', function () { $input.removeClass('has-focus'); });
+        });
+    });
+</script>
+
+<form EncType="multipart/form-data" action="https://secure.go2ubl.com/Converter/SendInvoice" class="converterForm" method="post">    <table class="converterUpload">
+        <tr>
+            <td class="h_14">
+                <label>Fijn dat u geïnteresseerd bent in de dienstverlening van go2UBL!</label><br />
+                Upload hieronder een testfactuur en ervaar zelf het gemak.<br /><br />
+            </td>
+        </tr>
+        <tr>
+            <td class="h_15">Mijn gegevens</td>
+        </tr>
+        <tr>
+            <td class="converterContent">
+                <table>
+                    <tr>
+                        <td class="circle">
+                            <p style="margin: 0; text-align: center;font-weight: bold; color:white;">1</p>
+                        </td>
+                        <td><label>E-mail adres</label></td>
+                        <td class="labelInputSeperator"></td>
+                        <td>
+                            <input data-val="true" data-val-email="Het emailadres is niet correct." data-val-length="The field Email adres must be a string with a maximum length of 1024." data-val-length-max="1024" data-val-required="Email adres is verplicht." id="Customer_EmailAddress" name="Customer.EmailAddress" placeholder="Uw email adres" type="text" value="" />
+                            <div><span class="field-validation-valid" data-valmsg-for="Customer.EmailAddress" data-valmsg-replace="true"></span></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="converterContent">
+
+                <table>
+                    <tr>
+                        <td class="circle">
+                            <p style="margin: 0; text-align: center;font-weight: bold; color:white;">2</p>
+                        </td>
+                        <td><label>Bedrijfsnaam</label> </td>
+                        <td class="labelInputSeperator"></td>
+                        <td>
+                            <input type="text" class="searchKvk customerSearchKvk searchCustomer" placeholder="Zoek bedrijf" />
+                            <div><span class="field-validation-valid" data-valmsg-for="Customer.KvkNumber" data-valmsg-replace="true"></span></div>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="customerTable">
+                    <tr>
+                        <td style="height: 40px; width: 40px;" />
+                        <td style="vertical-align: top">&nbsp;</td>
+                        <td></td>
+                        <td>
+                            <div style="float: left">CoC Nr.&nbsp;</div><div class="Customer_KvkNumber" style="float: left"></div>
+                            <div class="Customer_CompanyName" style="float: left; clear: left;"></div>
+                            <div class="Customer_Street" style="float: left; clear: left;"></div>
+                            <div class="Customer_PostalCode" style="float: left; clear: left;"></div><div style="float: left;">&nbsp;</div>
+                            <div class="Customer_City" style="float: left;"></div>
+                            <div class="Customer_Country" style="float: left; clear: left;"></div>
+                            <input data-val="true" data-val-length="The field CoC Nummer must be a string with a maximum length of 20." data-val-length-max="20" data-val-required="Nog geen bedrijf opgegeven." id="Customer_KvkNumber" name="Customer.KvkNumber" type="hidden" value="" />
+                            <input data-val="true" data-val-length="The field Mijn bedrijf must be a string with a maximum length of 255." data-val-length-max="255" data-val-required="Bedrijfsnaam  is verplicht." id="Customer_CompanyName" name="Customer.CompanyName" type="hidden" value="" />
+                            <input data-val="true" data-val-length="The field Adres must be a string with a maximum length of 255." data-val-length-max="255" id="Customer_Street" name="Customer.Street" type="hidden" value="" />
+                            <input data-val="true" data-val-length="The field Postcode must be a string with a maximum length of 255." data-val-length-max="255" id="Customer_PostalCode" name="Customer.PostalCode" type="hidden" value="" />
+                            <input data-val="true" data-val-length="The field Stad must be a string with a maximum length of 255." data-val-length-max="255" id="Customer_City" name="Customer.City" type="hidden" value="" />
+                            <input data-val="true" data-val-length="The field Land must be a string with a maximum length of 255." data-val-length-max="255" id="Customer_Country" name="Customer.Country" type="hidden" value="" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="h_15">Mijn factuur</td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td class="circle">
+                            <p style="margin: 0; text-align: center;font-weight: bold; color:white;">2</p>
+                        </td>
+                        <td>Test go2UBL met elk soort inkoop- of verkoopdocument. Van binnenlandse- of buitenlandse leveranciers en van kas- en pinbon tot handgeschreven nota's.<br />Indien u een factuur op regelniveau wilt testen, stuur dan een mail met de factuur naar: <a href="mailto:info@go2ubl.nl?subject=TEST%20FACTUUR%20OP%20REGELNIVEAU">info@go2ubl.nl</a> met onderwerp: TEST FACTUUR OP REGELNIVEAU</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="converterContent">
+                <table>
+                    <tr>
+                        <td class="circle">
+                            <p style="margin: 0; text-align: center;font-weight: bold; color:white;">3</p>
+                        </td>
+                        <td><label for="File_Data">Factuur</label></td>
+                        <td class="labelInputSeperator"></td>
+                        <td>
+                            <input class="inputfile" data-multiple-caption="{count} bestanden geselecteerd" data-val="true" data-val-required="Er is geen bestand gekozen." id="File_Data" name="File.Data" type="file" value="" />
+                            <label class="File_Data" for="File_Data"><span>Factuur uploaden</span></label>
+                            <div><span class="field-validation-valid" data-valmsg-for="File.Data" data-valmsg-replace="true"></span></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="height: 50px;">
+                <table>
+                    <tr>
+                        <td class="circle">
+                            <p style="margin: 0; text-align: center;font-weight: bold; color:white;">3</p>
+                        </td>
+                    <td>Lukt het ons om u enthousiast te maken? <br/>In de live-omgeving kunt u niet alleen Nederlandse facturen aanbieden, maar ook kas- en pinbonnen, handgeschreven facturen, belastingaanslagen en natuurlijk facturen van buitenlandse leveranciers.</td></tr>                    
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input id="submit" class="btn btn-default" style="color: #c5005e;" type="Submit" value="Start de test!" />
+            </td>
+        </tr>
+
+    </table>
+</form>
+</div>
+
+        <script src="bundles/Converterd6ec?v=20180122"></script>
+
+    
+
+    <script>
+        $('a[href^="' + this.location.pathname + this.location.search + '"]').parents('div').addClass('active');
+    </script>
+</body>
+
+<!-- Mirrored from secure.go2ubl.com/converter by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 09:54:21 GMT -->
+</html>

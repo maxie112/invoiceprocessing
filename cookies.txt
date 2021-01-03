@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+secure.go2ubl.com	TRUE	/	FALSE	1999999999	pLnMwhIWbHwaqR	l3gctlt3q4erlnoxcynt14fv
+secure.go2ubl.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+signup.go2ubl.com	TRUE	/	FALSE	1999999999	pLnMwhIWbHwaqR	b4uos2abximxn2t50id3nkle
+signup.go2ubl.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.go2ubl.com	TRUE	/	FALSE	1999999999	nsid	kycrmmoumdq3dz2najmbmplo
+www.go2ubl.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

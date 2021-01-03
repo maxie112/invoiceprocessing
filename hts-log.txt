@@ -1,0 +1,51 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 30 Dec 2020 10:53:22 at https://www.go2ubl.com/ https://secure.go2ubl.com/converter https://signup.go2ubl.com/Home/EmailCheck +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.go2ubl.com/ https://secure.go2ubl.com/converter https://signup.go2ubl.com/Home/EmailCheck -O1 "C:\My Web Sites\yourubl" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:54:48	Warning: 	Retry after error -5 (Error attempting to solve status 206 (partial file)) at link https://www.go2ubl.com/Assets/headerincludes-20200722-39450.css (from https://www.go2ubl.com/)
+10:54:48	Warning: 	Retry after error -5 (Error attempting to solve status 206 (partial file)) at link https://www.go2ubl.com/Assets/headerincludes-20200722-39450.js (from https://www.go2ubl.com/)
+10:58:47	Warning: 	Retry after error -5 (Error attempting to solve status 206 (partial file)) at link https://www.go2ubl.com/Assets/headerincludes-20200722-39450.css (from https://www.go2ubl.com/)
+10:58:47	Warning: 	Retry after error -5 (Error attempting to solve status 206 (partial file)) at link https://www.go2ubl.com/Assets/headerincludes-20200722-39450.js (from https://www.go2ubl.com/)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/sprite.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/sprite_x.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/sprite_y.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/sprite_next.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/sprite_prev.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/default_thumb.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/default/loader.gif (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_rounded/sprite.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_rounded/btnNext.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_rounded/btnPrevious.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_rounded/sprite.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_rounded/contentPattern.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_rounded/btnNext.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_rounded/btnPrevious.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_rounded/loader.gif (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_square/loader.gif (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_square/sprite.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_square/btnNext.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/dark_square/btnPrevious.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_square/sprite.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_square/btnNext.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_square/btnPrevious.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/sprite.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/contentPatternTop.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/contentPatternLeft.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/contentPatternRight.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/loader.gif (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/btnNext.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/btnPrevious.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/contentPatternBottom.png (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/facebook/default_thumbnail.gif (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:54	Error: 	"Not Found" (404) at link https://secure.go2ubl.com/img/prettyPhoto/light_rounded/loader.gif (from https://secure.go2ubl.com/Content/go2ubl-v2-css?v=20200805)
+10:59:56	Error: 	"Not Found" (404) at link https://www.go2ubl.com/en/tarieven (from https://www.go2ubl.com/en/How-does-it-work)
+11:00:17	Error: 	"Not Found" (404) at link https://www.go2ubl.com/de/tarieven (from https://www.go2ubl.com/de/Wie-funktioniert-es)
+11:00:39	Error: 	"Error attempting to solve status 206 (partial file)" (-5) after 2 retries at link https://www.go2ubl.com/Assets/headerincludes-20200722-39450.css (from https://www.go2ubl.com/)
+11:00:39	Error: 	"Error attempting to solve status 206 (partial file)" (-5) after 2 retries at link https://www.go2ubl.com/Assets/headerincludes-20200722-39450.js (from https://www.go2ubl.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 17 seconds : 675 links scanned, 632 files written (47177670 bytes overall) [41589430 bytes received at 83680 bytes/sec], 9672327 bytes transferred using HTTP compression in 469 files, ratio 35%
+(36 errors, 4 warnings, 0 messages)
